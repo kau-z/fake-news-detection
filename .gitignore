@@ -1,0 +1,71 @@
+# =========================
+# Python & Virtual Env
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.pickle
+*.joblib
+
+# Virtual environment
+venv/
+.env/
+*.env
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# =========================
+# Data & Models
+# =========================
+# Raw and processed data
+data/raw/
+data/processed/
+
+# Glove embeddings (large files)
+data/glove/
+glove/
+*.txt
+
+# Trained models
+models/*.h5
+models/*.keras
+models/*.pkl
+models/final/*.h5
+models/final/*.keras
+models/final/*.pkl
+
+# Metadata (if large or generated during training)
+models/final/metadata.json
+
+# Vectorizers & tokenizers
+*.vectorizer.pkl
+tokenizer.pkl
+tfidf_vectorizer.pkl
+
+# =========================
+# Reports & Outputs
+# =========================
+reports/*.png
+reports/*.csv
+reports/*.txt
+reports/*.json
+
+# =========================
+# System / Editor Files
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =========================
+# Logs & Caches
+# =========================
+*.log
+logs/
+wandb/
+mlruns/
