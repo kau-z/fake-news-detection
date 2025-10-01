@@ -1,0 +1,37 @@
+[
+  {
+    "Model": "Random Forest",
+    "Accuracy": 0.9967706013363029,
+    "Precision (Fake)": 0.9965950202170675,
+    "Recall (Fake)": 0.9972316865417377,
+    "F1 (Fake)": 0.9969132517296434
+  },
+  {
+    "Model": "BiLSTM",
+    "Accuracy": 0.988641425389755,
+    "Precision (Fake)": 0.992284612087441,
+    "Recall (Fake)": 0.9859454855195912,
+    "F1 (Fake)": 0.989104892117069
+  },
+  {
+    "Model": "Logistic Regression",
+    "Accuracy": 0.9878619153674832,
+    "Precision (Fake)": 0.9899594103823969,
+    "Recall (Fake)": 0.9867972742759795,
+    "F1 (Fake)": 0.9883758131598592
+  },
+  {
+    "Model": "LSTM",
+    "Accuracy": 0.9582405345211581,
+    "Precision (Fake)": 0.9390367811420443,
+    "Recall (Fake)": 0.9840289608177172,
+    "F1 (Fake)": 0.9610065508994489
+  },
+  {
+    "Model": "Naive Bayes",
+    "Accuracy": 0.928173719376392,
+    "Precision (Fake)": 0.9306825430576228,
+    "Recall (Fake)": 0.9320698466780238,
+    "F1 (Fake)": 0.9313756782636451
+  }
+]

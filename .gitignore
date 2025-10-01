@@ -1,71 +1,52 @@
-# =========================
-# Python & Virtual Env
-# =========================
+# ===========================
+# Python cache & temp files
+# ===========================
 __pycache__/
-*.py[cod]
+*.pyc
 *.pyo
 *.pyd
-*.pkl
-*.pickle
-*.joblib
+*.log
+*.tmp
 
+# ===========================
 # Virtual environment
+# ===========================
 venv/
 .env/
 *.env
 
-# Jupyter
-.ipynb_checkpoints/
-*.ipynb_checkpoints
+# ===========================
+# Jupyter notebooks
+# ===========================
+.notebooks/.ipynb_checkpoints/
+*/.ipynb_checkpoints/
 
-# =========================
-# Data & Models
-# =========================
-# Raw and processed data
-data/raw/
-data/processed/
-
-# Glove embeddings (large files)
-data/glove/
+# ===========================
+# Data & embeddings
+# ===========================
+data/
 glove/
-*.txt
 
-# Trained models
-models/*.h5
-models/*.keras
-models/*.pkl
-models/final/*.h5
-models/final/*.keras
-models/final/*.pkl
+# ===========================
+# Models (don’t commit trained weights)
+# ===========================
+models/*
+!models/README.md   # (keep a placeholder readme if needed)
 
-# Metadata (if large or generated during training)
-models/final/metadata.json
+# ===========================
+# Reports
+# ===========================
+# Keep plots & metrics (for documentation/portfolio)
+!reports/*.png
+!reports/*.csv
+!reports/*.json
 
-# Vectorizers & tokenizers
-*.vectorizer.pkl
-tokenizer.pkl
-tfidf_vectorizer.pkl
-
-# =========================
-# Reports & Outputs
-# =========================
-reports/*.png
-reports/*.csv
+# Ignore bulky logs / text dumps
 reports/*.txt
-reports/*.json
 
-# =========================
-# System / Editor Files
-# =========================
-.DS_Store
-Thumbs.db
+# ===========================
+# IDE / Editor files
+# ===========================
 .vscode/
 .idea/
-
-# =========================
-# Logs & Caches
-# =========================
-*.log
-logs/
-wandb/
-mlruns/
+.DS_Store
